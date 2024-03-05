@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(230, 128, 38),rgb(139, 0, 0));
+  }
+  .charmander{
+    width: 320px ;
+    height: 225px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 250px;
+}
+.charmileon{
+    width: 300px ;
+    height: 250px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 225px;
+
+}
+  .pokemon{
+    width: 400px ;
+    height: 200px;
+    position: absolute;
+    margin-left: 380px;
+
+}
+/* esta funcion mueve las llamas */
+@keyframes mover {
+  1% {
+       background-position:0px 
+      }
+
+       100% { 
+      background-position:-859px  
+  }
+}
+.llamas,.llamas2{
+  
+ width:  143px;
+ height:  264px;
+ background: url(../imagenes/llamas.png) ;
+ background-position:0px;
+ animation: mover 1s steps(6) infinite ;
+}
+.llamas{
+  margin-left: 10px;
+  margin-top: 150px;
+  position: absolute;
+
+}
+.llamas2{
+  margin-left: 795px;
+  margin-top: 115px;
+  position: absolute;
+
+}
+
+
+ 
